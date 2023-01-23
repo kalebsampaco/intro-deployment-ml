@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mediapp-321819",
+  "private_key_id": "7781fa9504447998677446996f5329193ca1d243",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCre7EeIPet7Y3z\n4KCQPxeHO06xNu2yZOGiRGErogh2G3QInuWdnkJSYvZsvHheC0wlI9tzufc4qV7u\nak4YrFFjtZeTcFd1ueC3w3MDNVHEUUSEkGluz4hs63oh091oVFY5nBIIth0GLUIK\nk3sTJkonS7b2rr6k5oeWPgQAnvQddEMlrf7FY957P2O040GinEJH0UNPZd150kaM\nJqEd+7iTgW1yov9MxDERIwC0vq7B0N3R5no5/fCw8BxVkefub0/AXzARYMOYmfUo\nS0N4JaWAAhS4GIopxuWxsr6VzkGtOZprR6/4ZG0sNNkB3r18wXAvWIFrgiQQ8+FM\ng95lmN8hAgMBAAECggEAQzqvokW/hKdND09B87tggIqOW+jSgK2PTjwrsl0InzE9\nKQIOuGAq1TzqKpArSod4V1k6+KBwXXz9dFAmBQNNt18iqVGSYFu6z6CnLxtQzrwj\ntisdwq1HaZhaHff/Zh8mXNiks1iegWTt7tKKHmRVDxnehdDVejXM82ilzg6DWyYs\nwYJYMc6hOl5PcfFE5UOBAZahfyRO0BIFCL/u+PpyvwmGt2XKft5bay1dm+8PZSeV\nrLNGn5pe1Y1ufXD7+V+iShPoHx4V1/SSyq5hKIAWdJGJF80AbRN/TkbcrOJr2l3w\nsjrR52atb4qgZ8QceglMwKaytUf4pSBN0ZS4KzlRjwKBgQDRmWfKkBoaaxkZ5NDX\n8xGaoqtCMiK2sj5LFgi+3TKgJtJPSxtDfEKOxkeMG6hINUWksYYDfhStUE+4APOv\nf3bnR2tGOpEzAX7QWQcknZKOVALTtR1tM5+xT30fsBQzBWM8kdVv1p7OIEG215iV\n7UewXcPh4D3otp1L1S4o7MG1cwKBgQDRciOA7nGTO0BzHAMuGl4R68i6qzsSSmgq\nj8nNvSbveCJvH9uwJoYQnTf1sYlY85Zy6FeLC8oc0vOJri5ifwupQPXYKdXjGTd2\nf6zR2etkuNkFoAvazrAkAryJ1PO79bM24AMcL52W0Iax7l4f4xKO7DlHO1TpYuMz\naRJOu5tUGwKBgCRCz+wBZiKv6JXMOj1B9ge0oMBBADRvPcursjOi/QEr9jJ1oe/Y\n7YLZ1sLsff6QCM5nT/IGu/kH7eK9d2sjOCTm/C4YL8qNNa1B2bSB9jrdWefaa47a\n4YPBZro2sifphLOT30ML9Elg1z2Uqvc1J7PhZOQM8WjzPt9BsEywOQr1AoGBAJpX\n2S//BvUvmcv53aIQzje4oIBnBK3y5RZQRa92b4XS6tUnDfaePPdrVDybaxKA1uKw\nsyqFMpjRH6TbFdWBt+8vLrvwAG1NPOD3LzypsVzVFyCdE39YBtdSqOuNYVumsT2E\nEOapdCEaY9glR3mKFTf7fi4u2+Ds/W76RAJ/H/T3AoGAOogtalupoM9J3PARCTK2\nbZ+IgnU5KEcYn3Mw/1BA9tuWtUj1gRRECqZwfrfG286UON/vG6VTPjTpYjpS2m0B\nxoXxKWHrRKP/CzNnyaJ2mXCuxN2oPIVoDPvRwKQsb/i72deJ/NZ6pnMacscM0/vm\nJYJ7nlFkWEWHLbDmJ6Y6dcU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "storage-manager@mediapp-321819.iam.gserviceaccount.com",
+  "client_id": "104405971024839623229",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-manager%40mediapp-321819.iam.gserviceaccount.com"
+}
