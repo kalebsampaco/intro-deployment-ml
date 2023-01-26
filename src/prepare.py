@@ -4,6 +4,8 @@ from io import StringIO
 import sys
 import logging
 
+from pandas.core.tools import numeric
+
 logging.basicConfig(
     format='%(asctime)s %(levelname)s:%(name)s: %(message)s',
     level=logging.INFO,
@@ -13,18 +15,15 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-logging.info('Fetching data..')
+logging.info('Fetching data...')
 
-movie_data_path = api.read('dataset/movies.csv', remote='dataset-track', encoding="utf8")
-finantial_data_path = api.read('dataset/finantials.csv', remote='dataset-track', encoding="utf8")
-opening_data_path = api.read('dataset/opening_gross.csv', remote='dataset-track', encoding="utf8")
+movie_data_path = api.read('dataset/movies.csv', remote='dataset-track')
+finantial_data_path = api.read('dataset/finantials.csv', remote='dataset-track')
+opening_data_path = api.read('dataset/opening_gross.csv', remote='dataset-track')
 
 fin_data = pd.read_csv(StringIO(finantial_data_path))
 movie_data = pd.read_csv(StringIO(movie_data_path))
 opening_data = pd.read_csv(StringIO(opening_data_path))
-
-#breakpoint()
-##import pdb; pdb.set_trace()
 
 numeric_columns_mask = (movie_data.dtypes == float) | (movie_data.dtypes == int)
 numeric_columns = [column for column in numeric_columns_mask.index if numeric_columns_mask[column]]

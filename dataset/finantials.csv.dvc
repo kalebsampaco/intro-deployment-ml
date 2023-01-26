@@ -1,4 +1,4 @@
 outs:
-- size: 593277
+- md5: 4a265d63db921dcca137b881e47eab6d
+  size: 593277
   path: finantials.csv
-  md5: 4a265d63db921dcca137b881e47eab6d
